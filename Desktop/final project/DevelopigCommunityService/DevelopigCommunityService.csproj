@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Maher\" />
+    <Folder Include="Controllers\Ebtisam\" />
+    <Folder Include="Controllers\Aya\" />
+    <Folder Include="Controllers\Bassal\" />
+    <Folder Include="Controllers\Somaya\" />
+    <Folder Include="Controllers\Reham\" />
+    <Folder Include="DTOs\Aya\" />
+    <Folder Include="DTOs\Bassal\" />
+    <Folder Include="DTOs\Ebtisam\" />
+    <Folder Include="DTOs\Maher\" />
+    <Folder Include="DTOs\Reham\" />
+    <Folder Include="DTOs\Somaya\" />
+    <Folder Include="Models\AbstractClasses\Aya\" />
+    <Folder Include="Models\AbstractClasses\Bassal\" />
+    <Folder Include="Models\AbstractClasses\Ebtisam\" />
+    <Folder Include="Models\AbstractClasses\Maher\" />
+    <Folder Include="Models\AbstractClasses\Reham\" />
+    <Folder Include="Models\AbstractClasses\Somaya\" />
+    <Folder Include="Models\Aya\" />
+    <Folder Include="Models\Interfaces\" />
+    <Folder Include="Models\Reham\" />
+    <Folder Include="Repository\Aya\" />
+    <Folder Include="Repository\Bassal\" />
+    <Folder Include="Repository\Ebtisam\" />
+    <Folder Include="Repository\Interfaces\Aya\" />
+    <Folder Include="Repository\Interfaces\Bassal\" />
+    <Folder Include="Repository\Interfaces\Ebtisam\" />
+    <Folder Include="Repository\Interfaces\Maher\" />
+    <Folder Include="Repository\Interfaces\Reham\" />
+    <Folder Include="Repository\Interfaces\Somaya\" />
+    <Folder Include="Repository\Maher\" />
+    <Folder Include="Repository\Reham\" />
+    <Folder Include="Repository\Somaya\" />
+  </ItemGroup>
+
+</Project>
